@@ -6,6 +6,6 @@ jobs:
   output-debug:
     runs-on: ubuntu-latest
     steps:
-      - uses: staticaland/repo-managed-by-terraform@master
+      - uses: staticaland/repo-managed-by-terraform@main
         with:
           jq_selector: ".pull_request"
